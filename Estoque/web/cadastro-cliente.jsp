@@ -10,32 +10,39 @@
 <html xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-        <link rel="stylesheet" href="produtocss.css"/>
+        <title id="idTitle">Cadastro de cliente</title>
+        <link rel="stylesheet" href="css.css"/>
 
     </head>
-    <body id="produtoBady">
+    <body id="idimagen">
+        <a href="index.html" id="idindex">Home</a>
     <center>
-        <h1 id="produtoH1">Cadastro de cliente</h1>
-        <hr>
+        <h1 id="h1cliente">Cadastro de cliente</h1>
+        <hr id="hrcliente">
         <form action="ClienteControle" method="POST">
+
             <input type="hidden" name="action" value="add"/>
-            <table border="1" width="1">
+            <table border="0" width="1">
                 <tr>
-                    <td><input type="text" name="nome" id="produtoCampo" value="" required="" placeholder="Digite seu nome"/></td>
+                    <td><input type="text" id="txtCliente" name="nome" value="" required="" placeholder="Digite seu nome"/></td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="cpf" id="produtoCampo" value="" required="" placeholder="Digite seu cpf"/></td>
+                    <td><input type="text" id="txtCliente" name="cpf" value="" required="" placeholder="Digite seu cpf"/></td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="telefone" id="produtoCampo" value="" required="" placeholder="Digite seu endereco" /></td>
+                    <td><input type="text" id="txtCliente" name="telefone" value="" required="" placeholder="Digite seu telefone" /></td>
                 </tr>
                 <tr>
-                    <td><input type="date" name="data" id="produtoCampo" value="" required=""/></td>
+                    <td>
+                        <input type="date" id="txtCliente" name="data"  value="" required=""/>
+                    </td>
                 </tr>
                 <tr>
-                    <td><input type="submit"   id="produtoBotao" value="Salvar" name="salvar"/></td>
+                    <td>
+                        <input type="submit" id="btncliente" value="Salvar" name="salvar"/>
+                    </td>
                 </tr>
+
             </table>
         </form>
     </center>

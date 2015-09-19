@@ -11,36 +11,37 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css.css"/>
-        <title>Lista de clientes</title>
+        <title>Lista de produtos</title>
     </head>
     <body id="idimagen">
         <a href="index.html" id="idindex">Home</a>
     <center>
-        <form action="ClienteControle" method="POST">
+        <form action="ProdutoControle" method="POST">
             
             <input type="hidden" name="action" value="listar" />
-            
             <input type="search" id="idpesquisa" name="pesquisa" value="" placeholder="Enter ou digita o valor da pesquisa"/>
-            <table aling="center" border="1px" width="100%"id="idtableCliente">
+            <table aling="center" border="1px" width="100%"id="idtableproduto">
 
                 <tr>
                     <th>Codigo</th>
-                    <th>Nome</th>
-                    <th>Cpf</th>
-                    <th>Telefone</th>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Valor da compra</th>
                     <th>Data</th>
                     <th>Editar</th>
                     <th>Remover</th>
                 </tr>
-                <c:forEach var="c" items="${lista}">                
+                <c:forEach var="p" items="${lista}">                
                     <tr>
-                        <td>${c.codigo}</td>
-                        <td>${c.nome}</td>
-                        <td>${c.cpf}</td>
-                        <td>${c.telefone}</td>
-                        <td>${c.data}</td>
-                        <td> <a href="ClienteControle?action=busca&id=${c.codigo}">Editar</a></td>
-                        <td> <a href="ClienteControle?action=remover&id=${c.codigo}" onclick="return confirm('Atenção deseja excluir cliente: ${c.nome}')">Remover</a></td>
+                        <td>${p.codigo}</td>
+                        <td>${p.descricao}</td>
+                        <td>${p.qtd}</td>
+                        <td>${p.preco}</td>
+                        <td>${p.valor}</td>
+                        <td>${p.data}</td>
+                        <td> <a href="ProdutoControle?action=buscar&codigo=${p.codigo}">Editar</a></td>
+                        <td> <a href="ProdutoControle?action=remover&codigo=${p.codigo}" onclick="return confirm('Atenção deseja excluir produto: ${p.descricao}')">Remover</a></td>
                     </tr>
 
                 </c:forEach>

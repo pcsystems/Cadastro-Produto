@@ -9,7 +9,7 @@ public class ConectaBd {
 
     private static Connection conn;
 
-    public static Connection OpenConnection() throws ClassNotFoundException {
+    public static Connection OpenConnection() throws Exception {
         try {
             if (conn == null || conn.isClosed()) {
                 Class.forName("org.postgresql.Driver");

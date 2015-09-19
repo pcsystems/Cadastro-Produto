@@ -1,0 +1,94 @@
+#h1cliente{
+
+    font-size: 30px;
+    height: 50px;
+    width: 605px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+
+}
+#hrcliente{
+    color: #3333ff;
+}
+#idTitle{
+    color: #3333ff;
+}
+#txtCliente{
+    font-size: 30px;
+    height: 50px;
+    width: 605px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+}
+#btncliente{
+    font-size: 30px;
+    height: 50px;
+    width: 605px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+}
+#txtClienteData{
+    font-size: 30px;
+    height: 50px;
+    width: 350px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+}
+#idindex{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+
+}
+#idimagen{
+    background-image: url(img/fotoproduto.jpg)
+}
+
+#txtProduto{
+    font-size: 30px;
+    height: 50px;
+    width: 605px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+}
+#h1produto{
+    color: #3333ff;
+}
+
+#idpesquisa{
+    font-size: 30px;
+    height: 50px;
+    width: 605px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+#idtableCliente{
+
+    margin-top: 30px;
+    font-size: 25px;
+    color: #3333ff;
+    border: 10px;
+    border-radius: 25px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    text-align: left;
+}
+#idtableproduto{
+
+    margin-top: 30px;
+    font-size: 25px;
+    color: #3333ff;
+    border: 10px;
+    border-radius: 25px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    text-align: left;
+    
+}
