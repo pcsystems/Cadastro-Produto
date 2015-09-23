@@ -1,0 +1,72 @@
+/* 
+    Created on : 23/09/2015, 11:12:38
+    Author     : tiago
+*/
+#index{
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 500px;
+}
+
+#tabela-lista{
+    font-size: 18px;
+    margin-top: 9px;
+    width: 40%;
+
+}
+#th{
+
+    text-align: left;
+}
+
+#table-cadatro{
+
+    font-size: 18px;
+    margin-top: 150px;
+
+}
+#incluir-produto{
+   
+    color: #3333ff;
+    animation: none;
+    margin-left: 1px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+
+#pesquisa{
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    color: #3333ff;
+    animation: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 130px;
+
+}
+
+
+#txt{
+    font-size: 35px;
+    height: 40px;
+    width: 434px;
+}
+#txtdata{
+    font-size: 35px;
+    height: 40px;
+    width: 433px;
+}
+#txtlista{
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 500px;
+
+}
+#btn-salvar-produto{
+    font-size: 31px;
+    height: 40px;
+    width: 143px;
+}
+
